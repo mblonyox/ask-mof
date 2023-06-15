@@ -1,0 +1,1 @@
+ERROR: error sending request for url (https://kemenkeupedia.kemenkeu.go.id/search/konten/3994-pengajuan-spm-uang-makan): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)

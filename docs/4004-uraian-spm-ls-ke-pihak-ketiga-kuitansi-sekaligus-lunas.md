@@ -1,0 +1,27 @@
+Uraian SPM-LS ke Pihak Ketiga (Kuitansi) - (Sekaligus Lunas)
+============================================================
+
+Pelaksanaan Anggaran · Dibuat **14 NOVEMBER 2019** · Dilihat **585 kali** ·
+
+SPM-LS ke Pihak Ketiga (Kuitansi) - (Sekaligus Lunas)
+
+*   Jenis SPM : 7 Langsung
+*   Jenis Pembayaran : 1 Pengeluaran Anggaran
+*   Sifat Pembayaran : 4 Pembayaran Langsung  
+    
+
+Uraian SPM:
+
+“Pembayaran Belanja …. (_Barang/Modal/Bansos/Lain-lain_) Sesuai …. (Kuitansi/Nota Pesanan/Faktur) Nomor …. Tanggal …., **BAST** Nomor …. Tanggal …. dan sesuai SPP No…. Tanggal ……”
+
+  
+
+Sumber: PMK-190/PMK.05/2012 tentang Tata Cara Pembayaran Dalam Rangka Pelaksanaan Anggaran Pendapatan Dan Belanja Negara
+
+Editor: HAI-Pedia  
+
+  
+  
+  
+
+* * *
