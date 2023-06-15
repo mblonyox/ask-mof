@@ -44,7 +44,7 @@ export default function SearchDialog() {
         <input
           name="search"
           ref={inputRef}
-          placeholder={`Tanya: misalnya "Ketentuan belanja modal?"`}
+          placeholder={`Tanyakan: misalnya "Ketentuan belanja modal?"`}
           disabled={!IS_BROWSER}
           class={`flex-1 px-4 py-2 bg-white rounded-md border-1 border-gray-300 hover:border-green-400 transition duration-300 outline-none disabled:(opacity-50 cursor-not-allowed)`}
         />
@@ -52,7 +52,7 @@ export default function SearchDialog() {
           disabled={!IS_BROWSER}
           class="px-4 py-2 rounded-md text-white border-1 border-slate-700/10 bg-gradient-to-r from-green-400 to-blue-500 hover:to-green-700 transition duration-300"
         >
-          Search
+          Ask?
         </button>
       </form>
       <p>{isLoading.value ? "Loading..." : answer}</p>
