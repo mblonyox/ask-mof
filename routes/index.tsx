@@ -11,10 +11,15 @@ export default function Home() {
           content="Ask from Ministry of Finance Knowledge Base."
         />
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md font-mono">
-        <h1 class="text-3xl mb-4">Ask MoF</h1>
-        <SearchDialog />
-      </div>
+      <section class="hero_single version_2">
+        <div class="wrapper">
+          <div class="container">
+            <h3>AskMoF</h3>
+            <p>Tanyakan pertanyaan anda tentang Keuangan Negara.</p>
+            <SearchDialog />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

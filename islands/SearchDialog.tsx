@@ -40,22 +40,26 @@ export default function SearchDialog() {
 
   return (
     <>
-      <form onSubmit={onSubmit} class="flex gap-2 w-full mb-4">
-        <input
-          name="search"
-          ref={inputRef}
-          placeholder={`Tanyakan: misalnya "Ketentuan belanja modal?"`}
-          disabled={!IS_BROWSER}
-          class={`flex-1 px-4 py-2 bg-white rounded-md border-1 border-gray-300 hover:border-green-400 transition duration-300 outline-none disabled:(opacity-50 cursor-not-allowed)`}
-        />
-        <button
-          disabled={!IS_BROWSER}
-          class="px-4 py-2 rounded-md text-white border-1 border-slate-700/10 bg-gradient-to-r from-green-400 to-blue-500 hover:to-green-700 transition duration-300"
-        >
-          Ask?
-        </button>
+      <form onSubmit={onSubmit}>
+        <div id="custom-search-input">
+          <div className="input-group">
+            <input
+              name="search"
+              ref={inputRef}
+              placeholder='misalnya: "Bagaimana ketentuan belanja modal?"'
+              disabled={!IS_BROWSER}
+              class="search-query"
+            />
+            <input
+              disabled={!IS_BROWSER}
+              class="btn_search"
+              type="submit"
+              value="Kirim"
+            />
+          </div>
+        </div>
       </form>
-      <p>{isLoading.value ? "Loading..." : answer}</p>
+      <p>{isLoading.value ? "Memuat..." : answer}</p>
     </>
   );
 }
