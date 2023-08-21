@@ -64,16 +64,6 @@ export default function Footer() {
           <div class="col-lg-3 col-md-6">
             <h5>Contact with Us</h5>
             <ul class="contacts">
-              <li>
-                <a href="tel://61280932400">
-                  <i class="ti-mobile"></i> + 61 23 8093 3400
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@udema.com">
-                  <i class="ti-email"></i> info@udema.com
-                </a>
-              </li>
             </ul>
             <div id="newsletter">
               <h6>Newsletter</h6>
